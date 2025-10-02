@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f9fbff; /* light background */
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* blue gradient */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+}
+
+header p {
+  margin: 5px 0 20px;
+  font-size: 1.2em;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffdd57; /* golden yellow hover */
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+  border-left: 5px solid #007bff;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+/* Resume & Skills Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project-card {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cce0ff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+.project-card a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Contact Links */
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  border-top: 4px
+}
